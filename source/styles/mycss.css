@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Tilt+Neon&display=swap');
+
+
+.home-page {
+    font-family: Tilt Neon;
+    background: linear-gradient(180deg, #000000 0%, #9a64a6 89%);
+}
+
+.art-page {
+    font-family: Tilt Neon;
+    background: linear-gradient(150deg, #095e83 0%, #E07B37 73%);
+}
+
+p {
+    color: beige;
+}
+
+.nav-item :hover {
+    color: #ecb071;
+}
+
+.nav-link {
+    color: deepskyblue;
+}
+
+.navbar-nav .nav-link.active {
+    color: darkorange;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: darkorange;
+}
+
+.card img {
+    height: 270px;
+}
+
+.card {
+    background-color: #41464b;
+    margin: 0.5em 0.5em 0.5em 1em;
+    box-shadow: 5px 5px 10px 1px #A548C0;
+
+}
+
+.right-bar {
+    color: beige;
+    background: linear-gradient(40deg, #A548C0 0%, #464444 56%);
+    border-radius: 0.5em;
+}
+
+
+.right-bar a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+.card a {
+    text-decoration: none;
+    color: beige;
+}
+
+.card-title a {
+    color: bisque;
+}
+
+.description {
+    color: beige;
+    margin: auto auto;
+}
+
+.btn {
+    margin-top: 1em;
+}
+
+
+
+.footer-text {
+    color: beige;
+    margin: auto auto;
+}
+
+footer{
+    background-color: #41464b;
+}
+
+.soc-logo {
+    width: 55px;
+}
+
+
+.anim-like {
+    animation: Like 4s ease 0s infinite normal forwards;
+}
+
+@keyframes Like {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+.btn-outline-dark {
+    color: bisque;
+    border-color: #783bb0;
+    box-shadow: 7px 6px 10px 2px #71158a;
+    background: linear-gradient(40deg, #A548C0 0%, #736F6F 56%);
+}
+
+.btn-dark {
+    color: bisque;
+    border-color: #783bb0;
+    box-shadow: 5px 5px 10px 1px #A548C0;
+    background: linear-gradient(40deg, #A548C0 0%, #736F6F 56%);
+}
+
+
+.carousel-image {
+    box-shadow: 7px 0px 10px 1px #A548C0;
+}
+
+@media (max-width: 755px){
+    .carousel-indicators {
+        display: none;
+    }
+}
